@@ -1,0 +1,50 @@
+@0
+
+
+@1
+UP: SWP
+MOV UP ACC
+JEZ ZERO
+#NON-ZERO
+SWP
+MOV 0 ACC
+JMP OUT
+ZERO:
+SWP
+ADD 1
+OUT:
+MOV ACC RIGHT
+
+@2
+MOV LEFT DOWN
+
+@3
+
+
+@4
+
+
+@5
+UP: MOV UP ACC
+SUB 2
+JGZ ONES
+MOV 0 DOWN
+JMP UP
+
+ONES:
+  MOV 1 DOWN
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP DOWN
+
+@10
+
