@@ -1,0 +1,48 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+MOV 1 RIGHT
+MOV -1 RIGHT
+
+@5
+UP: MOV ACC DOWN
+SWP
+MOV ACC DOWN
+SWP
+ADD 2
+SUB 30
+JLZ MORE
+ADD LEFT
+SWP
+ADD 1
+SWP
+JMP UP
+MORE: ADD 30
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP DOWN
+MOV UP DOWN
+MOV 3 DOWN
+MOV -1 DOWN
+
+@10
+
